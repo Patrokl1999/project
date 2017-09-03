@@ -1,0 +1,45 @@
+body{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ab0e00;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/**Header**/
+#header-nav{
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img{
+    background: url('../images/logo.png') no-repeat center ;
+    width: 154px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+    padding-top:25px ;
+}
+
+.navbar-brand h1{ /*Restoran name*/
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p {
+    font-family: 'Bad Script', cursive;
+    margin-top: 15px;
+    color: #e9c800;
+}
+.navbar-brand p span {
+    vertical-align: middle;
+}
