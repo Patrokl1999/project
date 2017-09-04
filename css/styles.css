@@ -95,4 +95,10 @@ body{
     .navbar-brand p img{
         height: 20px;
     }
+    #collapsable-nav-nav a{/*розмір значків категорій*/
+        fount-size:1.2em;
+    }
+    #collapsable-nav a span {
+        font-size: 1em;
+    }
 }
