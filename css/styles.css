@@ -76,7 +76,8 @@ body{
     clear: both;
     margin-top: -30px;
 }
-/*Екстра малі пристрої*/
+/*END header*/
+/*Extra small devices*/
 @media (max-width: 767px) {
     /*Header*/
     .navbar-brand {
