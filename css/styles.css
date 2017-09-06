@@ -77,6 +77,41 @@ body{
     margin-top: -30px;
 }
 /*END header*/
+
+          /*Large devices */
+@media (min-width: 1200px){
+    /*Home page*/
+    .jumbotron{
+    background: url("../images/fon1200.jpg") no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+    /*END Home page*/
+}
+
+       /*Medium devices */
+@media (min-width: 992px)and (max-width: 1199px) {
+    /*Home page*/
+    .jumbotron {
+        background: url("../images/fon992.jpg") no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+    }
+    /*END Home page*/
+}
+        /*Small devices */
+@media (min-width: 768px)and (max-width: 991px){
+    /*Home page*/
+    .jumbotron{
+        background: url("../images/fon768.jpg") no-repeat;
+        height: 661px;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+    }
+    /*END Home page*/
+}
 /*Extra small devices*/
 @media (max-width: 767px) {
     /*Header*/
@@ -97,9 +132,19 @@ body{
         height: 20px;
     }
     #collapsable-nav-nav a{/*розмір значків категорій*/
-        fount-size:1.2em;
+        font-size:1.2em;
     }
     #collapsable-nav a span {
         font-size: 1em;
     }
+    /*END header*/
+    /*Home page*/
+    .jumbotron{
+        background: url("../images/fon768.jpg") no-repeat;
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid #3F0C1F;
+    }
+    /*END Home page*/
 }
