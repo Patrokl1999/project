@@ -93,6 +93,29 @@ body{
 #menu-title:hover, #specials-title:hover, #map-title:hover{
     box-shadow: 0 1px 5px 1px #ffffff;
 }
+#menu-title{
+    background: url("../images/12.jpg") no-repeat ;
+    background-position:center;
+    background-size: cover;
+}
+#specials-title{
+    background: url("../images/13.jpg") no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+#menu-title span, #specials-title span,#map-title span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000000;
+    color:#fff;
+    opacity: .8;
+}
+
 /*END HOME PAGE*/
           /*Large devices */
 @media (min-width: 1200px){
@@ -155,6 +178,18 @@ body{
     }
     /*END header*/
     /*Home page*/
+    /*Super extra small devices*/
+    @media (max-width: 479px) {
+        #menu-title, #specials-title{
+            width: 360px;
+            margin: 0 auto 15px;
+        }
+     .navbar-brand h1{
+         padding-top: 5px;
+         font-size: 6vw;
+
+     }
+    }
     .jumbotron{
         background: url("../images/fon768.jpg") no-repeat;
         margin-top: 30px;
