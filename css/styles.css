@@ -117,6 +117,35 @@ body{
 }
 
 /*END HOME PAGE*/
+                     /*FOOTER*/
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#hours, #adress{
+    line-height: 2;
+}
+#hours > span, #adress > span{
+    font-size: 1.3em;
+}
+#adress p{
+    color: #026333;
+    font-size: .8em;
+    line-height: 1.8em;
+}
+#testimonials{
+    font-style: italic ;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+                   /*END FOOTER*/
           /*Large devices */
 @media (min-width: 1200px){
     /*Home page*/
@@ -126,7 +155,7 @@ body{
     box-shadow: 0 0 50px #3F0C1F;
     border: 2px solid #3F0C1F;
 }
-    /*END Home page*/
+    /*END Large devices*/
 }
 
        /*Medium devices */
@@ -138,7 +167,7 @@ body{
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
     }
-    /*END Home page*/
+    /*END Medium devices*/
 }
         /*Small devices */
 @media (min-width: 768px)and (max-width: 991px){
@@ -149,7 +178,7 @@ body{
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
     }
-    /*END Home page*/
+    /*END Small devices*/
 }
 /*Extra small devices*/
 @media (max-width: 767px) {
@@ -176,7 +205,7 @@ body{
     #collapsable-nav a span {
         font-size: 1em;
     }
-    /*END header*/
+    /*END Extra small devices*/
     /*Home page*/
     /*Super extra small devices*/
     @media (max-width: 479px) {
@@ -197,5 +226,5 @@ body{
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
     }
-    /*END Home page*/
+    /*END Super extra small devices*/
 }
