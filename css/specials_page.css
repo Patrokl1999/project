@@ -76,48 +76,17 @@ body{
     clear: both;
     margin-top: -30px;
 }
-/*END header*/
-/* HOME PAGE*/
-.container .jumbotron{
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
-}
-#menu-title, #specials-title, #map-title{
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3F0C1F;
-    overflow: hidden;
-}
-#menu-title:hover, #specials-title:hover, #map-title:hover{
-    box-shadow: 0 1px 5px 1px #ffffff;
-}
-#menu-title{
-    background: url("../images/12.jpg") no-repeat ;
-    background-position:center;
-    background-size: cover;
-}
-#specials-title{
-    background: url("../images/13.jpg") no-repeat;
-    background-position:center;
-    background-size: cover;
-}
-#menu-title span, #specials-title span,#map-title span{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
+/*Jumbotron*/
+.container .jumbotron{ /*Назва ресторану*/
+    font-family: 'Lobster', cursive;
+    color: #000000;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: #000000;
-    color:#fff;
-    opacity: .8;
 }
-
-/*END HOME PAGE*/
-                     /*FOOTER*/
+/*FOOTER*/
 .panel-footer{
     margin-top: 30px;
     padding-top: 35px;
@@ -145,39 +114,23 @@ body{
 #testimonials p:nth-child(2){
     margin-top: 25px;
 }
-                   /*END FOOTER*/
-          /*Large devices */
+/*END FOOTER*/
 @media (min-width: 1200px){
     /*Home page*/
-    .jumbotron{
-    background: url("../images/fon1200.jpg") no-repeat;
-    height: 675px;
-    box-shadow: 0 0 50px #3F0C1F;
-    border: 2px solid #3F0C1F;
-}
+
     /*END Large devices*/
 }
 
-       /*Medium devices */
+/*Medium devices */
 @media (min-width: 992px)and (max-width: 1199px) {
     /*Home page*/
-    .jumbotron {
-        background: url("../images/fon992.jpg") no-repeat;
-        height: 558px;
-        box-shadow: 0 0 50px #3F0C1F;
-        border: 2px solid #3F0C1F;
-    }
+
     /*END Medium devices*/
 }
-        /*Small devices */
+/*Small devices */
 @media (min-width: 768px)and (max-width: 991px){
     /*Home page*/
-    .jumbotron{
-        background: url("../images/fon768.jpg") no-repeat;
-        height: 515px;
-        box-shadow: 0 0 50px #3F0C1F;
-        border: 2px solid #3F0C1F;
-    }
+
     /*END Small devices*/
 }
 /*Extra small devices*/
@@ -225,18 +178,12 @@ body{
             width: 360px;
             margin: 0 auto 15px;
         }
-     .navbar-brand h1{
-         padding-top: 5px;
-         font-size: 6vw;
+        .navbar-brand h1{
+            padding-top: 5px;
+            font-size: 6vw;
 
-     }
+        }
     }
-    .jumbotron{
-        background: url("../images/fon768.jpg") no-repeat;
-        margin-top: 30px;
-        padding: 0;
-        box-shadow: 0 0 50px #3F0C1F;
-        border: 2px solid #3F0C1F;
-    }
+
     /*END Super extra small devices*/
 }
