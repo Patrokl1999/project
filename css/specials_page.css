@@ -79,13 +79,17 @@ body{
 /*Jumbotron*/
 .container .jumbotron{ /*Назва ресторану*/
     font-family: 'Lobster', cursive;
-    color: #000000;
+    color: #ffeef3;
     font-size: 1.5em;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
+    background-color: #0f0f0f;
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
 }
+
 /*FOOTER*/
 .panel-footer{
     margin-top: 30px;
@@ -124,13 +128,11 @@ body{
 /*Medium devices */
 @media (min-width: 992px)and (max-width: 1199px) {
     /*Home page*/
-
     /*END Medium devices*/
 }
 /*Small devices */
 @media (min-width: 768px)and (max-width: 991px){
     /*Home page*/
-
     /*END Small devices*/
 }
 /*Extra small devices*/
@@ -169,6 +171,7 @@ body{
     .panel-footer section hr{
         width: 50%;
     }
+
     /*End Footer*/
     /*END Extra small devices*/
     /*Home page*/
