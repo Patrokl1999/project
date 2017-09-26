@@ -813,7 +813,7 @@ if (typeof jQuery === 'undefined') {
     }
 
     var desc = ' li:not(.divider):visible a'
-    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+    var $items = $parent.find('[role="awards"]' + desc + ', [role="listbox"]' + desc)
 
     if (!$items.length) return
 
@@ -895,7 +895,7 @@ if (typeof jQuery === 'undefined') {
     .on('click.bs.dropdown.data-api', '.dropdown form', function (e) { e.stopPropagation() })
     .on('click.bs.dropdown.data-api', toggle, Dropdown.prototype.toggle)
     .on('keydown.bs.dropdown.data-api', toggle, Dropdown.prototype.keydown)
-    .on('keydown.bs.dropdown.data-api', '[role="menu"]', Dropdown.prototype.keydown)
+    .on('keydown.bs.dropdown.data-api', '[role="awards"]', Dropdown.prototype.keydown)
     .on('keydown.bs.dropdown.data-api', '[role="listbox"]', Dropdown.prototype.keydown)
 
 }(jQuery);
@@ -1931,7 +1931,7 @@ if (typeof jQuery === 'undefined') {
       .parents('li')
       .addClass('active')
 
-    if (active.parent('.dropdown-menu').length) {
+    if (active.parent('.dropdown-awards').length) {
       active = active
         .closest('li.dropdown')
         .addClass('active')
@@ -2013,7 +2013,7 @@ if (typeof jQuery === 'undefined') {
 
   Tab.prototype.show = function () {
     var $this    = this.element
-    var $ul      = $this.closest('ul:not(.dropdown-menu)')
+    var $ul      = $this.closest('ul:not(.dropdown-awards)')
     var selector = $this.data('target')
 
     if (!selector) {
@@ -2060,7 +2060,7 @@ if (typeof jQuery === 'undefined') {
     function next() {
       $active
         .removeClass('active')
-        .find('> .dropdown-menu > .active')
+        .find('> .dropdown-awards > .active')
           .removeClass('active')
         .end()
         .find('[data-toggle="tab"]')
@@ -2078,7 +2078,7 @@ if (typeof jQuery === 'undefined') {
         element.removeClass('fade')
       }
 
-      if (element.parent('.dropdown-menu')) {
+      if (element.parent('.dropdown-awards')) {
         element
           .closest('li.dropdown')
             .addClass('active')
